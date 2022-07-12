@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body >
+
+    <nav>
+        <div class="navbar">
+          <h3 class="name">Rental</h3>
+          <h3  class="name">from $99</h3>
+          <h6  class="name" style="font-size: 16px; margin-top: -8px;">per night</h6>
+        <hr style="background-color: rgba(125, 125, 125, 0.57); margin-bottom: 10px;">
+
+          <form >
+            <p><label><i class="fa fa-calendar-check-o"></i> Check In</label></p>
+            <input  type="text" placeholder="DD MM YYYY" name="CheckIn" class="filters">          
+            <p><label><i class="fa fa-calendar-o"></i> Check Out</label></p>
+            <input type="text" placeholder="DD MM YYYY" name="CheckOut"  class="filters">         
+            <p><label><i class="fa fa-male"></i> Adults</label></p>
+            <input type="number" value="1" name="Adults" min="1" max="6"  class="filters">              
+            <p><label><i class="fa fa-child"></i> Kids</label></p>
+            <input  type="number" value="0" name="Kids" min="0" max="6" class="filters">
+            <p><button class="search" type="submit" class="filters"><i class="fa fa-search " style="margin-left: -20px;"></i><p style="padding-left: 25px; display: inline;"> Search availability</p></button></p>
+          </form>
+        </div>
+
+        <div >
+          <a class="conection"><i class="fa fa-building element "></i> Apartment</a>
+          <a class="conection"><i class="fa fa-rss  element"> <p style="font-family: Raleway, Arial, Helvetica, sans-serif; display: inline;">Subscribe</p></i></a>
+          <a class="conection"><i class="fa fa-envelope  element"></i> Contact</a>
+        </div>
+      </nav>
+
+
+
+
+
+      <div class="content">
+
+
+        <h2 style="color: #4CAF50!important; font-weight: 400; font-size: 30px; margin: 10px 0;">The Apartment</h2>
+
+        <div>
+        <img src="./pics/livingroom.jpg" id="mainPic" style="width:98%;margin-bottom:-6px">
+          <div>
+            <p class="name-img" id="mainName">Living Room</p>
+          </div>
+        </div>
+
+
+
+          <div class="pics-flex">
+
+            <div class="pics">
+              <img src="./pics/livingroom.jpg" id="pic1" style="width:98%;margin-bottom:-6px">
+                <div class="name-img hide">
+                </div>
+              </div>
+
+        <div class="pics">
+        <img src="./pics/diningroom.jpg" id="pic2" style="width:98%;margin-bottom:-6px">
+          <div class="name-img hide">
+          </div>
+        </div>
+
+        <div class="pics">
+        <img src="./pics/bedroom.jpg" id="pic3" style="width:98%;margin-bottom:-6px">
+          <div class="name-img hide">
+          </div>
+        </div>
+
+        <div class="pics">
+        <img src="./pics/livingroom2.jpg" id="pic4" style="width:98%;margin-bottom:-6px">
+          <div class="name-img  hide">
+          </div>
+
+        </div>
+      </div>
+
+
+      <div>
+        <h4><strong>The space</strong></h4>
+        <div class="ability">
+          <div  class="room">
+            <p><i class="fa fa-fw fa-male"></i> Max people: 4</p>
+            <p><i class="fa fa-fw fa-bath"></i> Bathrooms: 2</p>
+            <p><i class="fa fa-fw fa-bed"></i> Bedrooms: 1</p>
+          </div>
+          <div class="time">
+            <p><i class="fa fa-fw fa-clock-o"></i> Check In: After 3PM</p>
+            <p><i class="fa fa-fw fa-clock-o"></i> Check Out: 12PM</p>
+          </div>
+        </div>
+        <hr>
+        
+        <h4><strong>Amenities</strong></h4>
+        <div class="amenities">
+          <div class="stuff1">
+            <p><i class="fa fa-fw fa-shower"></i> Shower</p>
+            <p><i class="fa fa-fw fa-wifi"></i> WiFi</p>
+            <p><i class="fa fa-fw fa-tv"></i> TV</p>
+          </div>
+          <div class="stuff2">
+            <p><i class="fa fa-fw fa-cutlery"></i> Kitchen</p>
+            <p><i class="fa fa-fw fa-thermometer"></i> Heating</p>
+            <p><i class="fa fa-fw fa-wheelchair"></i> Accessible</p>
+          </div>
+        </div>
+        <hr>
+        
+        <h4><strong>Extra Info</strong></h4>
+        <p>Our apartment is really clean and we like to keep it that way. Enjoy the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>We accept: <i class="fa fa-credit-card "></i> <i class="fa fa-cc-mastercard "></i> <i class="fa fa-cc-amex "></i> <i class="fa fa-cc-cc-visa "></i><i class="fa fa-cc-paypal "></i></p>
+        <hr>
+        
+        <h4><strong>Rules</strong></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Subscribe to receive updates on available dates and special offers.</p>
+        <p><button class="search" style="width: 200px;">Subscribe</button></p>
+      </div>
+      <hr>
+      
+      <div  id="contact">
+        <h2>Contact</h2>
+        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+        <p>Questions? Go ahead, ask them:</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="question" type="text" placeholder="Name" required name="Name"></p>
+          <p><input class="question" type="text" placeholder="Email" required name="Email"></p>
+          <p><input class="question" type="text" placeholder="Message" required name="Message"></p>
+        <button type="submit" class=" search message" style="width: 200px;">Send a Message</button>
+        </form>
+      </div>
+      
+      <footer  style="margin-top:32px">Powered by Zahra</footer>
+    </div> 
+  <script src="./app.js"></script>
+</body>
+</html>
